@@ -4,6 +4,7 @@
   padding: 5px 3px;
   font-weight: 600;
   position: fixed;
+  top: 0;
   width: 100%;
 }
 .status-bar_column {

@@ -3,10 +3,11 @@
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
+  background-color: rgb(249, 249, 250);
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .nav-btn {

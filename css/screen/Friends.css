@@ -1,0 +1,31 @@
+#friend-display {
+  color: rgb(47, 54, 62);
+  font-weight: 600;
+
+  padding: 15px 0px;
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+}
+#friend-display i {
+  color: rgba(47, 54, 62, 0.2);
+}
+
+.friends-channel {
+  margin: 10px 20px;
+  border-top: 1px solid rgba(47, 54, 62, 0.2);
+}
+.friends-channel-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(47, 54, 62, 0.6);
+  padding: 15px 0px;
+}
+
+.friends-channel-bar_title {
+  font-size: 13px;
+  font-weight: 600;
+}
+.profile-box_small {
+  padding: 10px 0px;
+}
