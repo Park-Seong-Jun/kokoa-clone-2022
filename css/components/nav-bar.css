@@ -1,9 +1,8 @@
 .nav-list {
-  position: fixed;
-  bottom: 0;
   width: 100%;
+  height: 73px;
   box-sizing: border-box;
-  background-color: rgb(249, 249, 250);
+  background-color: white;
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
@@ -13,26 +12,13 @@
 .nav-btn {
   position: relative;
 }
-.nav-notification {
+.nav-btn .notification {
   position: absolute;
-  top: -7px;
-  right: -10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  background-color: tomato;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
+  top: -10px;
+  right: -13px;
 }
-
-.nav-notification_dot {
+.nav-btn .notification_dot {
   position: absolute;
   top: -5px;
   right: -5px;
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
 }

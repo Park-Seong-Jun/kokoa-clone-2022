@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>friend-KakaoTalk</title>
   </head>
-  <body class="main">
-    <div class="status-bar">
+  <body>
+    <div class="status-bar top-fixed">
       <div class="status-bar_column">
         <span>No service</span>
         <i class="fas fa-wifi"></i>
@@ -22,78 +22,87 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
+
+    <header class="screen-header top-fixed">
+      <h1 class="screen-header_title">Friends</h1>
+      <div class="screen-header_link">
+        <span>
+          <i class="fas fa-search fa-2x"></i>
+        </span>
+        <span>
+          <i class="fas fa-music fa-2x"></i>
+        </span>
+        <a href="setting.html"
+          ><span> <i class="fas fa-cog fa-2x"></i> </span
+        ></a>
+      </div>
+    </header>
+
+    <main class="friends-main-screen">
+      <div id="friend-display">
+        <i class="fas fa-info-circle"></i>
+        <span>Friends' Names display</span>
+        <i class="fas fa-chevron-right"></i>
+      </div>
+      <div class="profile-box">
+        <div class="profile-box_column">
+          <img
+            class="profile-box_img profile-box_img-2x"
+            src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/7r5X/image/9djEiPBPMLu_IvCYyvRPwmZkM1g.jpg"
+          />
+          <div class="profile-box_column-explain">
+            <span class="profile-box_title">Name</span>
+            <span class="profile-box_subtitle"></span>
+          </div>
+        </div>
+        <div class="profile-box_column"></div>
+      </div>
+      <div class="main-screen-bar">
+        <span class="main-screen-bar_title">Channel</span>
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <div class="profile-box">
+        <div class="profile-box_column">
+          <img
+            class="profile-box_img profile-box_img-xs"
+            src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/7r5X/image/9djEiPBPMLu_IvCYyvRPwmZkM1g.jpg"
+          />
+          <div class="profile-box_column-explain">
+            <span class="profile-box_title">Name</span>
+            <span class="profile-box_subtitle"></span>
+          </div>
+        </div>
+        <div class="profile-box_column">
+          <span>2<i class="fas fa-chevron-right"></i></span>
+        </div>
+      </div>
+    </main>
     <nav class="nav-bar">
-      <ul class="nav-list">
+      <ul class="nav-list bottom-fixed">
         <li class="nav-btn">
           <a class="nav-link" href="friend.html">
             <i class="fas fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav-btn">
-          <a class="nav-link" href="#"><i class="far fa-comment fa-2x"></i></a>
-          <span class="nav-notification">1</span>
+          <a class="nav-link" href="chats.html"
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+          <span class="notification">1</span>
         </li>
         <li class="nav-btn">
-          <a class="nav-link" href="#"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav-link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
         <li class="nav-btn">
-          <a class="nav-link" href="#"
+          <a class="nav-link" href="more.html"
             ><i class="fas fa-ellipsis-h fa-2x"></i
           ></a>
-          <div class="nav-notification_dot"></div>
+          <div class="notification_dot"></div>
         </li>
       </ul>
     </nav>
-    <header class="page-header">
-      <h1 class="page-header_title">Friends</h1>
-      <div class="page-header_link">
-        <a class="page-header_link-icon" href="#">
-          <i class="fas fa-search fa-2x"></i>
-        </a>
-        <a class="page-header_link-icon" href="#">
-          <i class="fas fa-music fa-2x"></i>
-        </a>
-        <a class="page-header_link-icon" href="#">
-          <i class="fas fa-cog fa-2x"></i>
-        </a>
-      </div>
-    </header>
-    <div id="friend-display">
-      <i class="fas fa-info-circle"></i>
-      <span>Friends' Names display</span>
-      <i class="fas fa-chevron-right"></i>
-    </div>
-    <div class="profile-box">
-      <div class="profile-box_left">
-        <img
-          class="profile-box_img"
-          src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/7r5X/image/9djEiPBPMLu_IvCYyvRPwmZkM1g.jpg"
-        />
-        <span class="profile-box_title">Name</span>
-        <span class="profile-box_subtitle"></span>
-      </div>
-      <!--<div class="profile-box_right"></div>-->
-    </div>
-    <main class="friends-channel">
-      <div class="friends-channel-bar">
-        <span class="friends-channel-bar_title">Channel</span>
-        <i class="fas fa-chevron-up"></i>
-      </div>
-      <div class="profile-box profile-box_small">
-        <div class="profile-box_left profile-box_small_left">
-          <img
-            class="profile-box_img profile-box_small_img"
-            src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/7r5X/image/9djEiPBPMLu_IvCYyvRPwmZkM1g.jpg"
-          />
-          <span class="profile-box_title profile-box_small_title">Name</span>
-          <span class="profile-box_subtitle profile-box_small_subtitle"></span>
-        </div>
-        <div class="profile-box_right">
-          <span>2</span>
-          <i class="fas fa-chevron-right"></i>
-        </div>
-      </div>
-    </main>
 
     <script
       src="https://kit.fontawesome.com/146e1d9927.js"

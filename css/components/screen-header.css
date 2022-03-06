@@ -1,0 +1,18 @@
+.screen-header {
+  margin-top: 26px;
+  padding: 25px var(--horizontal-space);
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--main-border);
+  background-color: white;
+}
+.screen-header_title {
+  font-weight: 700;
+  font-size: 30px;
+}
+.screen-header_link i {
+  margin-left: 20px;
+}

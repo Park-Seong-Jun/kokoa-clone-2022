@@ -2,33 +2,67 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 10px 0;
+  margin-bottom: 10px;
 }
-.profile-box_left {
+.profile-box_column {
   display: flex;
   align-items: center;
 }
-.profile-box_img {
+.profile-box_img-2x {
   width: 70px;
   height: 70px;
   border-radius: 25px;
 }
-.profile-box_title {
-  margin-left: 20px;
-  font-size: 22px;
-  font-weight: 600;
+.profile-box_img-xl {
+  width: 65px;
+  height: 65px;
+  border-radius: 24px;
 }
-.profile-box_small_img {
+.profile-box_img-xs {
   width: 50px;
   height: 50px;
   border-radius: 20px;
 }
-.profile-box_small_title {
+.profile-box_column-explain {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.profile-box_subtitle {
+  display: flex;
+  align-items: center;
+}
+.profile-box_subtitle span:first-child {
+  font-size: 16px;
+  opacity: 0.4;
+  font-weight: 600;
+}
+.profile-box_title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.profile-box:last-child .profile-box_title {
   font-weight: normal;
 }
-.profile-box_right {
+.profile-box_column:last-child {
   color: rgba(47, 54, 62, 0.4);
 }
-.profile-box_right .fa-chevron-right {
-  margin-left: 0px;
+.profile-box_column .fa-chevron-right {
+  margin-left: 10px;
+}
+.profile-box_column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.profile-box_column:last-child .notification {
+  margin-top: 10px;
+}
+
+.profile-box_column-btn i {
+  color: black;
 }

@@ -127,4 +127,5 @@ input:focus {
 }
 a {
   color: rgb(47, 54, 62);
+  text-decoration: none;
 }

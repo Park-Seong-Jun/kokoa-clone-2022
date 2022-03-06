@@ -1,0 +1,130 @@
+.screen-header_link {
+  position: relative;
+}
+.screen-header_link span:last-child div {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.recommended_friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+.recommended_friends-title {
+  padding-top: 25px;
+  color: var(--lighter-color);
+}
+.recommended_friends-list {
+  margin: 120px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recommended_friends-list span {
+  color: var(--lighter-color);
+  font-size: 20px;
+}
+.open_chat-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  color: rgb(120, 120, 120);
+}
+.open_chat-header a {
+  opacity: 0.5;
+}
+.open_chat-content-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: var(--main-border);
+}
+.open_chat-content-info-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.open_chat-content-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.open_chat-content-info-column h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.open_chat-content-info-column p {
+  font-size: 20px;
+  color: rgb(120, 120, 120);
+  padding: 7px 0;
+}
+.open_chat-info-column-like_bar span {
+  font-weight: 300;
+}
+.open_chat-members {
+  display: flex;
+}
+.open_chat-members span {
+  margin: 0 5px;
+}
+.open_chat-header i {
+  margin-left: 8px;
+  opacity: 0.5;
+}
+.open_chat {
+  padding: 15px 0;
+  border-bottom: var(--main-border);
+}
+.open_chat-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.open_chat-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.open_chat-hashtags {
+  font-size: 15px;
+  opacity: 0.5;
+  margin: 7px 0;
+}
+
+.open_chat-member-count {
+  opacity: 0.5;
+}
+.divider {
+  opacity: 0.5;
+}
+.open_chat-member-status {
+  color: rgb(255, 120, 202);
+}
+.open_chat-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.open_chat-info-column {
+  position: relative;
+}
+.open_chat-info-column-like_bar {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: aliceblue;
+  width: 60px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 7px;
+  right: 8px;
+  border-radius: 10px;
+}
+.open_chat-info-column-like_bar span {
+  margin-left: 5px;
+}
+.open_chat-info-column-like_bar i {
+  font-size: 12px;
+}

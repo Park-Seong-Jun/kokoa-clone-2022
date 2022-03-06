@@ -28,7 +28,7 @@
   transition: border-color 0.3s ease-in-out;
 }
 #login-form input::placeholder {
-  opacity: 0.6;
+  color: var(--lighter-color);
 }
 #login-form input:focus {
   border-color: var(--yellow);

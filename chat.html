@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to KakaoTalk</title>
+    <title>Nicolas Serrano-KakaoTalk</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar top-fixed">
       <div class="status-bar_column">
         <span>No service</span>
@@ -22,19 +22,19 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="welcome-header">
-      <h1 class="welcome-header_title">Welcome to KakaoTalk</h1>
-      <p class="welcome-header_text">
-        If you have a Kakao Account,log in with your email or phone number.
-      </p>
+    <header class="alt-screen-header">
+      <div class="alt-screen-header-column">
+        <a href="chats.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+      </div>
+      <div class="alt-screen-header-column">
+        <h1 class="alt-screen-header_title">Nicolas Serrano</h1>
+      </div>
+      <div class="alt-screen-header-column">
+        <span><i class="fas fa-search fa-2x"></i></span
+        ><span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
     </header>
-    <form action="friend.html" method="get" id="login-form">
-      <input name="Username" type="text" placeholder="Email or Phone number" />
-      <input name="Password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <input type="submit" value="Sign up" />
-      <a href="#">Find Kakao Account or Password</a>
-    </form>
+
     <script
       src="https://kit.fontawesome.com/146e1d9927.js"
       crossorigin="anonymous"

@@ -1,0 +1,24 @@
+.alt-screen-header {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.alt-screen-header-column:first-child {
+  margin-right: auto;
+}
+.alt-screen-header-column:first-child i {
+  padding-left: 20px;
+}
+.alt-screen-header_title {
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+.alt-screen-header-column:last-child {
+  margin-left: auto;
+}
+.alt-screen-header-column:last-child i {
+  padding-right: 20px;
+}
