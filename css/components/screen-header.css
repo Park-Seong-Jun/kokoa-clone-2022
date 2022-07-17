@@ -1,7 +1,7 @@
 .screen-header {
   margin-top: 26px;
   padding: 25px var(--horizontal-space);
-  width: 100%;
+  width: 640px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;

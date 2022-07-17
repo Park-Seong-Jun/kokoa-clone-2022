@@ -18,18 +18,40 @@
 @import "screen/more.css";
 @import "screen/settings.css";
 @import "screen/chat.css";
+
+
 body {
   font-family: "Open Sans", sans-serif;
   padding-bottom: 75px;
+  width: 640px;
+  box-sizing: border-box;
 }
 main {
   padding: 0 var(--horizontal-space);
   padding-top: 110px;
-  height: 1000vh;
+  height: auto;
 }
 a {
   cursor: pointer;
 }
 .behind {
   visibility: hidden;
+}
+.screen_alram {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+@media screen and (min-width: 1000px) {
+  * {
+    visibility: hidden;
+  }
+  .screen_alram {
+    visibility: visible;
+
+  }
 }

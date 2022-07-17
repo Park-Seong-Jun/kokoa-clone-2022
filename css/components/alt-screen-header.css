@@ -1,4 +1,5 @@
 .alt-screen-header {
+  width: 640px;
   margin-top: 55px;
   display: flex;
   justify-content: space-between;
