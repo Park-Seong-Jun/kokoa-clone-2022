@@ -1,14 +1,13 @@
-#login_loading {
-    width: inherit;
-    height: inherit;
-    background-color: rgb(250, 225, 0);
+.login-loading {
+    height: 100vh;
+    background-color: var(--yellow);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0;
 
 }
-#login_loading i {
+.login-loading i {
     color: rgb(60, 30, 30);
     font-size: 100px;
 }
