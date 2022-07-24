@@ -19,17 +19,24 @@
 @import "screen/settings.css";
 @import "screen/chat.css";
 
+html {
+  border: 2px solid black;
+
+}
 
 body {
   font-family: "Open Sans", sans-serif;
   padding-bottom: 75px;
-  width: 640px;
+  width: 480px;
+  height: auto;
   box-sizing: border-box;
+
+
 }
 main {
   padding: 0 var(--horizontal-space);
   padding-top: 110px;
-  height: auto;
+
 }
 a {
   cursor: pointer;
@@ -37,21 +44,48 @@ a {
 .behind {
   visibility: hidden;
 }
-.screen_alram {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  width: 100px;
-  height: 100px;
-  background-color: black;
-}
 
-@media screen and (min-width: 1000px) {
+
+.screen_alram span {
+  color: white;
+  font-size: 50px;
+}
+@media (min-width: 560px) {
   * {
     visibility: hidden;
   }
-  .screen_alram {
+  body {
+    background-color: blue;
     visibility: visible;
+    position: relative;
+  }
+  .screen_alram {
+    position: absolute;
+    top: 50%;
+    left: 100%;
 
+  }
+  .screen_alram span {
+    visibility: visible;
+  }
+  
+}
+
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: var(--yellow);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
   }
 }

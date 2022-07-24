@@ -1,0 +1,14 @@
+#login_loading {
+    width: inherit;
+    height: inherit;
+    background-color: rgb(250, 225, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+
+}
+#login_loading i {
+    color: rgb(60, 30, 30);
+    font-size: 100px;
+}
