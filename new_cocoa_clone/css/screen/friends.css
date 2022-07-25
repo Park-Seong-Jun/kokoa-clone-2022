@@ -1,0 +1,64 @@
+.friends-names-display-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    height: 30px;
+}
+.friends-names-display-info span {
+    margin: 0 10px;
+}
+.friends-names-display-info i {
+    opacity: 0.2;
+}
+
+.friends-screen__profile {
+    margin-top: 20px;
+    padding: 0 var(--horizontal-space);
+}
+.friends-screen__profile__self__info span {
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.friends-screen__profile__self__info__img--big {
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.friends-screen__profile__self__info__img--small {
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__column {
+    display: flex;
+    align-items: center;
+
+}
+.profile__column:nth-child(2) {
+    opacity: 0.6;
+}
+.friends-screen__profile__channel {
+    margin-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.friends-screen__profile__channel__header {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    opacity: 0.6;
+}
+.friends-screen__profile__channel__info span {
+    margin-right: 8px;
+}
