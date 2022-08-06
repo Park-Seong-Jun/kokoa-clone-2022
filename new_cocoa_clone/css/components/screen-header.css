@@ -15,6 +15,6 @@
     display: flex;
     align-items: center;
 }
-.screen-header__btns i:nth-child(2) {
-    margin: 0 20px;
+.screen-header__btns i {
+    margin-left: 20px;
 }

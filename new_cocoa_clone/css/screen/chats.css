@@ -1,0 +1,44 @@
+.chats-screen__profile__self__info__img--middle {
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    
+}
+
+
+.chats-screen__profile__channel__info__txt span:first-child {
+    font-weight: 500;
+    font-size: 18px;
+}
+.chats-screen__profile__channel__info__txt span:nth-child(2) {
+    
+    opacity: 0.5;
+}
+
+.chats-screen__profile__channel__info:nth-child(2) {
+    opacity: 1;
+    align-items: flex-end;
+
+}
+
+.unread-message {
+    position: relative;
+}
+
+.unread-message > div {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    
+}
+
+.uncheck-event {
+    position: relative;
+}
+
+.uncheck-event > div {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    
+}

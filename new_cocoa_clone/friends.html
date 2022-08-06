@@ -14,7 +14,7 @@
         <i class="fa-solid fa-wifi fa-xs"></i>
       </div>
       <div class="status-bar__column">
-        <span>05:16</span>
+        <span id="time-display"></span>
       </div>
       <div class="status-bar__column">
         <i class="fa-solid fa-lock fa-xs"></i>
@@ -71,9 +71,29 @@
         </div>
       </section>
     </main>
+    <nav id="nav-bar" class="chats__nav-bar">
+      <ul>
+        <i class="fa-solid fa-user fa-xl"></i>
+        <a href="chats.html"
+          ><div class="unread-message">
+            <i class="fa-regular fa-comment fa-xl"></i>
+            <div id="red-badge">
+              <span>1</span>
+            </div>
+          </div></a
+        >
+
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <div class="uncheck-event">
+          <i class="fa-solid fa-ellipsis fa-2xl"></i>
+          <div id="red-dot"></div>
+        </div>
+      </ul>
+    </nav>
     <script
       src="https://kit.fontawesome.com/660566d5c2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>

@@ -1,0 +1,17 @@
+#red-badge {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#red-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: tomato;
+
+}

@@ -1,0 +1,30 @@
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 var(--horizontal-space);
+}
+
+.profile__column {
+    display: flex;
+    align-items: center;
+
+}
+.profile__column img{
+    margin-right: 15px;
+    
+    
+
+}
+
+
+.vertical {
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.vertical > span:first-child {
+    margin-bottom: 10px;
+}
