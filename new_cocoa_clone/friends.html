@@ -71,29 +71,33 @@
         </div>
       </section>
     </main>
-    <nav id="nav-bar" class="chats__nav-bar">
-      <ul>
-        <i class="fa-solid fa-user fa-xl"></i>
-        <a href="chats.html"
-          ><div class="unread-message">
-            <i class="fa-regular fa-comment fa-xl"></i>
+    <nav id="nav" class="chats__nav-bar">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html"><i class="fa-solid fa-user fa-xl"></i></a>
+        </li>
+        <li class="nav__btn unread-message">
+          <a href="chats.html"
+            ><i class="fa-regular fa-comment fa-xl"></i>
             <div id="red-badge">
               <span>1</span>
-            </div>
-          </div></a
-        >
-
-        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-        <div class="uncheck-event">
+            </div></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a href="#"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
+        </li>
+        <li class="nav__btn uncheck-event">
           <i class="fa-solid fa-ellipsis fa-2xl"></i>
           <div id="red-dot"></div>
-        </div>
+        </li>
       </ul>
     </nav>
     <script
       src="https://kit.fontawesome.com/660566d5c2.js"
       crossorigin="anonymous"
     ></script>
-    <script src="app.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/tab-close.js"></script>
   </body>
 </html>

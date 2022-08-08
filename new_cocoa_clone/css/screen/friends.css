@@ -34,8 +34,7 @@
 
 .friends-screen__profile__channel__header {
     margin: 15px var(--horizontal-space);
-    padding-top: 10px;
-    
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,4 +47,7 @@
     margin-right: 8px;
     display: flex;
     flex-direction: column;
+}
+.friends-screen__profile__channel .profile {
+    margin-top: 0;
 }

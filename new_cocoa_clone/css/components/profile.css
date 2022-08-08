@@ -13,12 +13,7 @@
 }
 .profile__column img{
     margin-right: 15px;
-    
-    
-
 }
-
-
 .vertical {
     
     display: flex;
@@ -27,4 +22,7 @@
 }
 .vertical > span:first-child {
     margin-bottom: 10px;
+}
+.tab--close {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }

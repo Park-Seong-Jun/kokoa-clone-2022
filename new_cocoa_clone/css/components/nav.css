@@ -1,4 +1,4 @@
-#nav-bar ul {
+.nav__list {
     position: fixed;
     bottom: 0;
     width: 100%;
