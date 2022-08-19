@@ -40,7 +40,7 @@
     align-items: center;
     font-size: 15px;
     opacity: 0.6;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: var(--division-line);
 
 }
 .friends-screen__profile__channel__info span {

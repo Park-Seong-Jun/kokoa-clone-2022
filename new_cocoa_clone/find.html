@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Find</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi fa-xs"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="time-display"></span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-lock fa-xs"></i>
+        <span>11%</span>
+        <i class="fa-solid fa-battery-quarter fa-xl"></i>
+        <i class="fa-solid fa-bolt fa-xs"></i>
+      </div>
+    </div>
+    <main class="find-screen">
+      <header class="find-header screen-header">
+        <h1 class="find-header__title screen-header__title">Find</h1>
+        <div class="find-header__btns screen-header__btns">
+          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+          <i class="fa-solid fa-gear fa-lg"><div id="red-dot"></div></i>
+        </div>
+      </header>
+      <section class="find-btns">
+        <div class="find-btns__box">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="find-btns__box">
+          <i class="fa-regular fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="find-btns__box">
+          <i class="fa-solid fa-id-card-clip"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-btns__box">
+          <i class="fa-regular fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </section>
+    </main>
+    <nav id="nav" class="nav-bar">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html"><i class="fa-regular fa-user fa-xl"></i></a>
+        </li>
+        <li class="nav__btn unread-message">
+          <a href="chats.html"><i class="fa-regular fa-comment fa-xl"></i> </a>
+        </li>
+        <li class="nav__btn">
+          <a href="#"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
+        </li>
+        <li class="nav__btn uncheck-event">
+          <i class="fa-solid fa-ellipsis fa-2xl"></i>
+          <div id="red-dot"></div>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/660566d5c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>

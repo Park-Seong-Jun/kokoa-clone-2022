@@ -1,0 +1,31 @@
+.find-header__btns i:last-child {
+    position: relative;
+}
+.find-header__btns i:last-child #red-dot {
+    position: absolute;
+    top: -15px;
+    right: -5px;
+}
+.find-btns {
+    padding: 0 var(--horizontal-space);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.find-btns__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 75px;
+}
+.find-btns__box i {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.find-btns__box span {
+    font-size: 17px;
+    text-align: center;
+}
