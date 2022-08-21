@@ -1,3 +1,8 @@
+.find-screen > section {
+    margin: 0 var(--horizontal-space);
+    padding: 15px 0;
+}
+
 .find-header__btns i:last-child {
     position: relative;
 }
@@ -7,10 +12,9 @@
     right: -5px;
 }
 .find-btns {
-    padding: 0 var(--horizontal-space);
-    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
+    border-bottom: var(--division-line);
 
 
 }
@@ -28,4 +32,105 @@
 .find-btns__box span {
     font-size: 17px;
     text-align: center;
+}
+
+.find-recommended-friends {
+    border-bottom: var(--division-line);
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+}
+.find-recommended-friends__list {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.find-open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+
+}
+.find-open-chat__content {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.find-open-chat__content__column__text__img {
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;
+
+}
+.find-open-chat__content__column > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+.find-open-chat__content__column__text {
+    font-size: 20px;
+}
+.find-open-chat__content__column__tag {
+    margin: 8px 0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.find-open-chat__content__column__info {
+    display: flex;
+    align-items: center;
+}
+.find-open-chat__content__column__info > * {
+    margin-right: 7px;
+}
+.find-open-chat__content__column__size {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.find-open-chat__content__column__state {
+    font-size: 13.5px;
+    color:deeppink;
+}
+.find-open-chat__content__column__like {
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 2px 5px;
+}
+.find-open-chat__content__column__like > i {
+    color: white;
+    margin-right: 3px;
+}
+.find-open-chat__content__column__like > span {
+    color: white;
+    font-size: 15px;
+    font-weight: 450;
+}
+.find-open-chat__content__column:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.find-open-chat__content__column:last-child {
+    position: relative;
+}
+.find-open-chat__content__column__like {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+}
+.division {
+    height: 15px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
